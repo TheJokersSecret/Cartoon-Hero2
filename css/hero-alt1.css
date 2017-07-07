@@ -11,16 +11,17 @@ header{
 
 h1{
 	font-size: 90px;
-	color: black;
+	color: white;
+	text-shadow: 0 4px 20px black;
+	margin: 0;
+	text-transform: uppercase;
 }
 
 header img{
 	border-radius: 300px;
 	width: 225px;
 	border: 24px solid #ff8000;
-}
-h2{
-	color: #ff8000;
+	box-shadow: 0 10px 20px black;
 }
 
 .content{
@@ -37,6 +38,12 @@ p.caption{
 	font-size: 16px
 	color: lightgrey;
 	font-style: italic;
+}
+
+ol{
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 
 ul{
@@ -63,5 +70,5 @@ ul{
 }
 footer ul li{
 	display: inlineblock;
-	margin: 0px;
+	margin: 0px 5px;
 }
